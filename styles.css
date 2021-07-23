@@ -1,38 +1,215 @@
 body {
-  background: #ddd;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 500px;
-  margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+  background: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.main-body {
+  display: flex;
+  justify-content: center;
+}
+span {
+  max-width: 60vw;
+}
 nav {
-	border-bottom: 2px solid orange;
+  border-bottom: 2px solid #ffd97d;
+  display: Flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-right: 5vw;
+  margin-bottom: 5vh;
+  height: 12vh;
+  background-color: #456990;
 }
 
 ol {
-	padding-left: 0;
+  padding-left: 0;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: right;
+  text-align: ;
+}
+
+li {
 }
 
 .crumb {
-	margin-right: 2em;
-	display: inline;
+  margin-right: 2em;
+  display: inline;
 }
 
 a {
-	color: orange;
+  color: #1f271b;
 }
 
 a:visited {
-	color: crimson;
+  color: #ffd97d;
 }
 
-
 input {
-	display: block;
+  display: block;
 }
 
 img {
-	max-width: 300px;
+  max-width: 300px;
+}
+
+h1 {
+  font-size: 48px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+p {
+  font-size: 18px;
+  padding: 5px;
+}
+
+ul {
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.footer {
+  height: 100px;
+  color: #1f271b;
+  width: 100%;
+}
+
+form {
+  font-size: 18px;
+}
+
+input {
+  padding-top: 5px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: yellow;
+  color: black;
+  border: 3px, solid, gainsboro;
+  border-radius: 5px;
+}
+
+#welcometext {
+  text-align: center;
+}
+
+#helloworld {
+  text-align: center;
+  font-size: 36px;
+}
+
+.duck-center {
+  display: flex;
+}
+
+.contact {
+  text-align: center;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #1f271b;
+  color: white;
+  padding: 20px 40px;
+}
+
+.radio-btn {
+  display: flex;
+}
+
+#brady-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.face-bio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+}
+
+.bio {
+  padding-left: 10px;
+}
+
+.skills-interests {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.skills {
+  justify-content: left;
+  background-color: white;
+}
+
+#career {
+  text-align: center;
+}
+
+.fav-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#utah {
+  height: 150px;
+  width: 150px;
+  padding-right: 15px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#quote {
+  font-size: 24px;
+}
+
+.near-img-about {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+}
+
+#fav-title {
+  text-align: center;
+}
+
+.rest-park {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rand-rest {
+  display: flex;
+  justify-content: center;
+}
+
+#random {
 }

@@ -1,42 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./nearme.html">Near Me</a></li>
+      </ol>
+    </nav>
+    <div class="main-body">
+      <span>
+        <content>
+          <h1 id="welcometext">Welcome to this little website.</h1>
+          <p id="helloworld">Hello World</p>
+          <div class="duck-center">
+            <img
+              src="https://pngimg.com/uploads/rubber_duck/rubber_duck_PNG54.png"
+              id="duck"
+            />
+            <div class="lists">
+              <p class="welcome">
+                Here at this website we have so many things for you to do! We
+                have pools you can swim in, mini-golf, ultimate frisbee, you
+                name it! The site is your oyrster! Lose yourself in the
+                uniaginable wonderland that is this website! you'll wonder why
+                you ever go outside. After all, you, our beloved user, are:
+              </p>
+              <br />
+              <br />
+              <br />
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+              <ul>
+                Super intelligent
+              </ul>
+              <ul>
+                Kind
+              </ul>
+              <ul>
+                Would never fall for a scam like this
+              </ul>
+              <br />
+              <br />
+              <br />
+              <p>
+                We look forward tro your patronage and your continued stay with
+                us! P.S. join us on discord.
+              </p>
+            </div>
+          </div>
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+          <h2 class="contact">Contact Us</h2>
+          <div class="form-center">
+            <form id="contact">
+              Your name:
+              <input type="text" />
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
-
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
-
-			Message:
-			<input type="textarea">
-
-			<input type="submit">
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+              Message:
+              <input type="textarea" />
+              How did you hear about us?
+              <div class="radio-btn">
+                <input type="radio" id="google" />
+                <label for="google">Google</label>
+                <input type="radio" id="friend" />
+                <label for="friend">Friend</label>
+                <input type="radio" id="other" />
+                <label for="other">Other</label>
+              </div>
+              <input type="submit" />
+            </form>
+          </div>
+        </content>
+      </span>
+    </div>
+	<footer class="footer"></footer>
+    <script src="about.js"></script>
+  </body>
 </html>
